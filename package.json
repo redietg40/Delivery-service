@@ -1,6 +1,6 @@
 {
   "name": "delivery-system",
-  "homepage": "https://redietg40.github.io/delivery-service",
+  "homepage": "https://redietg40.github.io/Delivery-service",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-     "deploy":"gh-pages -d dist"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
